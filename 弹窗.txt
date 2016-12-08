@@ -1,0 +1,30 @@
+弹窗类型                            弹窗类名         弹窗调用       
+选择语言弹窗                        modal_lang       $(“.modal_lang”).modal();
+购买的商品页面-删除                 modal_dele       $(“.modal_dele”).modal();
+配送信息                            modal_mess       $(“.modal_mess”).modal();
+商品详情-现金支付                   modal_pay        $(“.modal_pay”).modal();
+收件管理-保存失败                   save_err         $(“.save_err”).modal();
+收件管理-收件人信息                 save_seccuss     $(“.save_seccuss”).modal();
+数字社区－排序                      modal_sort       $(“.modal_sort”).modal();
+数字社区－搜索弹窗                  modal_sort       $(“.modal_search”).modal();
+数字社区详情页面-活动信息           modal_activity   $(“.modal_activity”).modal();
+数字社区详情页面-活动信息           modal_activity   $(“.modal_activity”).modal();
+
+
+同一弹窗改了文字，添加类名就行，或者动态文字，谢谢！
+账户管理-充值成功                   modal_recharge   $(“.modal_recharge”).modal();
+账户管理-充值失败                   modal_recharge   $(“.modal_recharge”).modal();
+账户管理-提现弹窗                   modal_recharge   $(“.modal_recharge”).modal();
+账户管理-提现失败弹窗               modal_recharge   $(“.modal_recharge”).modal();
+
+
+
+
+
+
+-------1024---------
+
+1、banner图处理（只有一张图片的时候自动生成两张）   处理方案： 替换owl.carousel.js文件
+2、商品信息界面                                     处理方案： 标题上的超链接删除，在li下面添加a标签 
+3、语言切换点击三角没反应                           处理方案： 修改style.css  454行-457行  请全部替换
+4、  数字社区2.html是固定了图片高度的
